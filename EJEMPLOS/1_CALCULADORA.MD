@@ -1,4 +1,4 @@
-index.php
+## index.php
 ~~~
 <?php
 # Definimos las constates de interracción con el usuario
@@ -19,7 +19,7 @@ index.php
 ~~~
 
 ***
-ope_suma.php
+## ope_suma.php
 ~~~
 <?php
 #interacción
@@ -36,7 +36,7 @@ Echo"</form>";
 ~~~
 
 ***
-fun_suma.php
+## fun_suma.php
 ~~~
 <?php
 #definimos un clase 
@@ -59,6 +59,128 @@ $final = new operaciones();
 ~~~
 
 ***
+## ope_resta.php
+~~~
+<?php
+#interacción
+Echo("<h2>Ingrese los valores que desea operar</h2>","<br/>");
 
-ope_
+#Definimos un formulario de operaciones
+Echo"<form name="operaciones" method="POST" action="fun_resta.php">"; Echo ("<br/>");
+Echo"Dato1:<inpu name="dato1" type"text">";Echo ("<br/>");
+Echo"Dato1:<inpu name="dato2" type"text|">";Echo ("<br/>");
+Echo"<input name="operaciones" type="submit" value="restar">"; Echo("<br/>")
+Echo"</form>";
+
+?>
+~~~
+
+***
+## fun_resta.php
+~~~
+<?php
+#definimos un clase 
+class operaciones{
+    #inicializamos una funcion
+    public function resta ($dato1,$dato2)
+    #declaramos la operación
+    {
+        $resultado = ($dato1-$dato2);
+        Echo("El resultado de la operación es:");
+            Echo($resultado);
+    }
+}
+#Imprimir variables
+$final = new operaciones();
+    $final->sumar(
+        $_POST["dato1"],
+        $_POST["dato2"])
+?>
+~~~
+
+***
+## ope_multiplicación.php
+~~~
+<?php
+#interacción
+Echo("<h2>Ingrese los valores que desea operar</h2>","<br/>");
+
+#Definimos un formulario de operaciones
+Echo"<form name="operaciones" method="POST" action="fun_multiplicación.php">"; Echo ("<br/>");
+Echo"Dato1:<inpu name="dato1" type"text">";Echo ("<br/>");
+Echo"Dato1:<inpu name="dato2" type"text|">";Echo ("<br/>");
+Echo"<input name="operaciones" type="submit" value="multiplicar">"; Echo("<br/>")
+Echo"</form>";
+?>
+~~~
+
+***
+## fun_multiplicación.php
+~~~
+<?php
+#definimos un clase 
+class operaciones{
+    #inicializamos una funcion
+    public function multiplicación ($dato1,$dato2)
+    #declaramos la operación
+    {
+        $resultado = ($dato1*$dato2);
+        Echo("El resultado de la operación es:");
+            Echo($resultado);
+    }
+}
+#Imprimir variables
+$final = new operaciones();
+    $final->multiplicación(
+        $_POST["dato1"],
+        $_POST["dato2"])
+?>
+~~~
+
+***
+## ope_divición.php
+~~~
+<?php
+#interacción
+Echo("<h2>Ingrese los valores que desea operar</h2>","<br/>");
+
+#Definimos un formulario de operaciones
+Echo"<form name="operaciones" method="POST" action="fun_divición.php">"; Echo ("<br/>");
+Echo"Dato1:<inpu name="dato1" type"text">";Echo ("<br/>");
+Echo"Dato1:<inpu name="dato2" type"text|">";Echo ("<br/>");
+Echo"<input name="operaciones" type="submit" value="dividir">"; Echo("<br/>")
+Echo"</form>";
+?>
+~~~
+
+***
+## fun_divicion.php
+~~~
+<?php
+#definimos un clase 
+class operaciones{
+    #inicializamos una funcion
+    public function divición ($dato1,$dato2)
+    #declaramos la operación
+    {
+        $resultado = ($dato1/$dato2);
+        Echo("El resultado de la operación es:");
+            Echo($resultado);
+    }
+}
+#Imprimir variables
+$final = new operaciones();
+    $final->divición(
+        $_POST["dato1"],
+        $_POST["dato2"])
+?>
+~~~
+
+
+
+
+
+
+
+
 
