@@ -13,8 +13,6 @@
     Echo("<a href="ope_resta.php">Restar<a/>","\n");
     Echo("<a href="ope_multiplicación.php">Divición<a/>","\n");
     Echo("<a href="ope_divición.php">Divición<a/>","\n");
-    
-  
 ?>
 ~~~
 
@@ -31,7 +29,6 @@ Echo"Dato1:<inpu name="dato1" type"text">";Echo ("<br/>");
 Echo"Dato1:<inpu name="dato2" type"text|">";Echo ("<br/>");
 Echo"<input name="operaciones" type="submit" value="sumar">"; Echo("<br/>")
 Echo"</form>";
-
 ?>
 ~~~
 
@@ -71,7 +68,6 @@ Echo"Dato1:<inpu name="dato1" type"text">";Echo ("<br/>");
 Echo"Dato1:<inpu name="dato2" type"text|">";Echo ("<br/>");
 Echo"<input name="operaciones" type="submit" value="restar">"; Echo("<br/>")
 Echo"</form>";
-
 ?>
 ~~~
 
