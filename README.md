@@ -2,6 +2,6 @@
 
 <h1> CURSO DE PHP </h1> <br>
 
-### Este repositorio es un breve repaso para adquiri nuevo conocimiento del lenguaje php con conceptos y ejemplos.
+### Este repositorio es un breve repaso para adquirir nuevos conocimientos del lenguaje php con conceptos y ejemplos.
 
 ***
