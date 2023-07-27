@@ -38,6 +38,12 @@ comentario largo
 ~~~
 ## metodos en form
 * **GET** : este metodo muestra los datos mediante la URL.
+~~~
+<form action="" method="GET"> </form>
+~~~
 * **POST** : este metodo ocultalos datos y los recepciona.
+~~~
+<form action="" method="POST"> </form>
+~~~
 
 
