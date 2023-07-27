@@ -6,11 +6,20 @@
 
 ***
 
-<details>
-  <summary>
-    Instruccion para imprimir PHP 
-  </summary>
-  estan son las tres formas para poder imprimir informacion en php en el navegador.
+##sintaxisen PHP
+el archivo de php puede leer el lenguaje html mas las instrucciones del php.
+~~~
+<!DOCTYPE html>
+<hmtl>
+  <body>
+      <?php 
+          echo "Hello World!";
+      ?>
+  </body>      
+</html>
+~~~
+##Instruccion para imprimir PHP 
+estan son las tres formas para poder imprimir informacion en php en el navegador.
 ~~~
 < ?php
 echo "Hola mundo";
@@ -18,4 +27,17 @@ print_r ("Hola mundo");
 print ("Hola mundo");  
 ? >
 ~~~
-</details>
+##instruccion de comando
+en esta hay dos formas de comentariar.
+~~~
+//comentarios en una linea
+
+/*
+comentario largo
+*/
+~~~
+## metodos en form
+* **GET** : este metodo muestra los datos mediante la URL.
+* **POST** : este metodo ocultalos datos y los recepciona.
+
+
