@@ -5,3 +5,17 @@
 ### Este repositorio es un breve repaso para adquirir nuevos conocimientos del lenguaje php con conceptos y ejemplos.
 
 ***
+
+<details>
+  <summary>
+    Instruccion para imprimir PHP 
+  </summary>
+  estan son las tres formas para poder imprimir informacion en php en el navegador.
+~~~
+< ?php
+echo "Hola mundo";
+print_r ("Hola mundo");
+print ("Hola mundo");  
+? >
+~~~
+</details>
