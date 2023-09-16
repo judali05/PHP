@@ -1,6 +1,7 @@
-<img src="https://github.com/Brayan-Hc11/devicon/blob/master/icons/php/php-plain.svg" style="width: 100px; height: 100px; margin: 2px;" align="left" >
+<img src="https://github.com/Brayan-Hc11/devicon/blob/master/icons/php/php-plain.svg" style="width: 120px; height: 120px; margin: 2px;" align="left" >
 
-<h1> CURSO DE PHP </h1> <br>
+<div align="center"><h1> :beginner: CURSO DE PHP :beginner: </h1></div> 
+
 
 ### Este repositorio es un breve repaso para adquirir nuevos conocimientos del lenguaje php con conceptos y ejemplos.
 
