@@ -1,8 +1,12 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
 body {
-    font-family: Tahoma;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     width: auto;
-    height: 100vh;
     margin: 0;
 }
 
@@ -13,7 +17,35 @@ h1 {
     color: #ffffff;
     padding: 10px;
     margin: 10px;
+    text-transform: uppercase;
+    border-radius: 5px;
 }
+
+.principal{
+    max-width: min(100%, 10rem);
+    margin: 0 auto;
+}
+
+.tarjetas{
+    background-color: hsl(285, 3%, 73%);
+    padding: 10px;
+    margin: 20px;
+    width: 20%;
+    border-radius: 7px;
+}
+
+p {
+    text-align: center;
+    margin: 5px;
+    font-size: 20px;
+}
+
+img{
+    width: 100%;;
+}
+
+/**
+
 
 img{
     width: 200px;;
@@ -21,7 +53,7 @@ img{
 
 div {
     display: inline-flex;
-    background-color: rgb(154, 205, 50);
+    background-color: rgb(108, 110, 104);
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -36,4 +68,4 @@ p{
     font-size: 18px;
     text-align: center;
 }
-
+**/
