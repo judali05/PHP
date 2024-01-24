@@ -43,29 +43,3 @@ p {
 img{
     width: 100%;;
 }
-
-/**
-
-
-img{
-    width: 200px;;
-}
-
-div {
-    display: inline-flex;
-    background-color: rgb(108, 110, 104);
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px;
-    max-width: 500px;
-}
-
-p{
-    display: inline-block;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    font-size: 18px;
-    text-align: center;
-}
-**/
