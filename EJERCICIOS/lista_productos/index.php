@@ -26,16 +26,14 @@
             $ccantidad = stripslashes($row["cantidad"]);   
             $uurl = stripslashes($row["url"]);   
 
-            echo "<div class'principal'>
-                        <div class='tarjetas'>
+            echo "       <div class='tarjetas'>
                             <p> $nnombre </p>
                             <img src='$uurl' alt='Imagen del producto'>
                             <p> $ddescripcion </p>
                             <p> $vvalor </p>
                             <p> $ccantidad </p>
                 
-                        </div>
-                    </div>";
+                        </div>";
         }
 
 ?>
